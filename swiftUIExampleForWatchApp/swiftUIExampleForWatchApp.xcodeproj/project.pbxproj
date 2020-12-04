@@ -14,9 +14,14 @@
 		F2740009257A395C006FC5D0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2740008257A395C006FC5D0 /* ComplicationController.swift */; };
 		F274000B257A395D006FC5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F274000A257A395D006FC5D0 /* Assets.xcassets */; };
 		F274000E257A395D006FC5D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F274000D257A395D006FC5D0 /* Preview Assets.xcassets */; };
+		F2740029257A4D2B006FC5D0 /* IOSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274FFC7257A393F006FC5D0 /* IOSContentView.swift */; };
+		F2740044257A5191006FC5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F274FFC9257A3959006FC5D0 /* Assets.xcassets */; };
+		F274004A257A52B1006FC5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F274FFC9257A3959006FC5D0 /* Assets.xcassets */; };
+		F274005B257A696B006FC5D0 /* IOSDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274005A257A696B006FC5D0 /* IOSDetailView.swift */; };
+		F2740070257A6CCA006FC5D0 /* IOSDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274005A257A696B006FC5D0 /* IOSDetailView.swift */; };
 		F274FFC4257A393F006FC5D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274FFC3257A393F006FC5D0 /* AppDelegate.swift */; };
 		F274FFC6257A393F006FC5D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274FFC5257A393F006FC5D0 /* SceneDelegate.swift */; };
-		F274FFC8257A393F006FC5D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274FFC7257A393F006FC5D0 /* ContentView.swift */; };
+		F274FFC8257A393F006FC5D0 /* IOSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274FFC7257A393F006FC5D0 /* IOSContentView.swift */; };
 		F274FFCA257A3959006FC5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F274FFC9257A3959006FC5D0 /* Assets.xcassets */; };
 		F274FFCD257A3959006FC5D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F274FFCC257A3959006FC5D0 /* Preview Assets.xcassets */; };
 		F274FFD0257A3959006FC5D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F274FFCE257A3959006FC5D0 /* LaunchScreen.storyboard */; };
@@ -24,7 +29,6 @@
 		F274FFE6257A395A006FC5D0 /* swiftUIExampleForWatchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274FFE5257A395A006FC5D0 /* swiftUIExampleForWatchAppUITests.swift */; };
 		F274FFEB257A395A006FC5D0 /* swiftUIExampleForWatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F274FFEA257A395A006FC5D0 /* swiftUIExampleForWatchApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F274FFF1257A395A006FC5D0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F274FFEF257A395A006FC5D0 /* Interface.storyboard */; };
-		F274FFF3257A395B006FC5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F274FFF2257A395B006FC5D0 /* Assets.xcassets */; };
 		F274FFFA257A395B006FC5D0 /* swiftUIExampleForWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F274FFF9257A395B006FC5D0 /* swiftUIExampleForWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F274FFFF257A395B006FC5D0 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274FFFE257A395B006FC5D0 /* HostingController.swift */; };
 /* End PBXBuildFile section */
@@ -95,10 +99,11 @@
 		F274000D257A395D006FC5D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F274000F257A395D006FC5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2740010257A395D006FC5D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F274005A257A696B006FC5D0 /* IOSDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDetailView.swift; sourceTree = "<group>"; };
 		F274FFC0257A393F006FC5D0 /* swiftUIExampleForWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUIExampleForWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F274FFC3257A393F006FC5D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F274FFC5257A393F006FC5D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F274FFC7257A393F006FC5D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F274FFC7257A393F006FC5D0 /* IOSContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSContentView.swift; sourceTree = "<group>"; };
 		F274FFC9257A3959006FC5D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F274FFCC257A3959006FC5D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F274FFCF257A3959006FC5D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,7 +116,6 @@
 		F274FFE7257A395A006FC5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F274FFEA257A395A006FC5D0 /* swiftUIExampleForWatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUIExampleForWatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F274FFF0257A395A006FC5D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		F274FFF2257A395B006FC5D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F274FFF4257A395B006FC5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F274FFF9257A395B006FC5D0 /* swiftUIExampleForWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "swiftUIExampleForWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F274FFFE257A395B006FC5D0 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
@@ -186,7 +190,8 @@
 			children = (
 				F274FFC3257A393F006FC5D0 /* AppDelegate.swift */,
 				F274FFC5257A393F006FC5D0 /* SceneDelegate.swift */,
-				F274FFC7257A393F006FC5D0 /* ContentView.swift */,
+				F274FFC7257A393F006FC5D0 /* IOSContentView.swift */,
+				F274005A257A696B006FC5D0 /* IOSDetailView.swift */,
 				F274FFC9257A3959006FC5D0 /* Assets.xcassets */,
 				F274FFCE257A3959006FC5D0 /* LaunchScreen.storyboard */,
 				F274FFD1257A3959006FC5D0 /* Info.plist */,
@@ -225,7 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				F274FFEF257A395A006FC5D0 /* Interface.storyboard */,
-				F274FFF2257A395B006FC5D0 /* Assets.xcassets */,
 				F274FFF4257A395B006FC5D0 /* Info.plist */,
 			);
 			path = "swiftUIExampleForWatchApp WatchKit App";
@@ -419,7 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F274FFF3257A395B006FC5D0 /* Assets.xcassets in Resources */,
+				F2740044257A5191006FC5D0 /* Assets.xcassets in Resources */,
 				F274FFF1257A395A006FC5D0 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F274000E257A395D006FC5D0 /* Preview Assets.xcassets in Resources */,
+				F274004A257A52B1006FC5D0 /* Assets.xcassets in Resources */,
 				F274000B257A395D006FC5D0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +447,8 @@
 			files = (
 				F274FFC4257A393F006FC5D0 /* AppDelegate.swift in Sources */,
 				F274FFC6257A393F006FC5D0 /* SceneDelegate.swift in Sources */,
-				F274FFC8257A393F006FC5D0 /* ContentView.swift in Sources */,
+				F274FFC8257A393F006FC5D0 /* IOSContentView.swift in Sources */,
+				F274005B257A696B006FC5D0 /* IOSDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,10 +474,12 @@
 			files = (
 				F2740001257A395B006FC5D0 /* ContentView.swift in Sources */,
 				F274FFFF257A395B006FC5D0 /* HostingController.swift in Sources */,
+				F2740029257A4D2B006FC5D0 /* IOSContentView.swift in Sources */,
 				F2740005257A395C006FC5D0 /* NotificationController.swift in Sources */,
 				F2740003257A395B006FC5D0 /* ExtensionDelegate.swift in Sources */,
 				F2740007257A395C006FC5D0 /* NotificationView.swift in Sources */,
 				F2740009257A395C006FC5D0 /* ComplicationController.swift in Sources */,
+				F2740070257A6CCA006FC5D0 /* IOSDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
